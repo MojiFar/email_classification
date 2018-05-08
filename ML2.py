@@ -40,21 +40,21 @@ from sklearn.svm import SVC
 def Category(x):
     x = str(x)
     x = (x.split(','))[0]
-    if x in ('Asim' , 'KV' , 'Mojtaba' , 'Matthew', 'Andrea'):
+    if x in ('A' , 'K' , 'M' , 'Ma', 'An'):
         return 1
-    if x in ('Yiwen'):
+    if x in ('Y'):
         return 2
-    if x in ( 'Olya', 'Olga', 'Sofia'):
+    if x in ( 'Ol', 'Og', 'So'):
         return 3
-    if x in ('Maria', 'Casper'):
+    if x in ('Ma', 'Ca'):
         return 4
-    if x in ('Stefano','Lavinia','Sandra'):
+    if x in ('St','La','Sa'):
         return 5
-    if x in ('Jean' ,'Wen Li','Sireesha','Anja'):
+    if x in ('Je' ,'We','Si','An'):
         return 6
-    if x in ('Nathan', 'Shenshen', 'Pim', 'Hanyu', 'Kajeng', 'Valeria', 'Jan Willem'):
+    if x in ('Pi', 'Ha', 'Ka', 'Va', 'Ja'):
         return 7
-    if x in ('Bruno', 'Davi'):
+    if x in ('Br', 'Da'):
         return 8
     
 
